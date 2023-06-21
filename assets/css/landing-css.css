@@ -1,0 +1,161 @@
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/fa/iranyekan/eot/iranyekanwebregular.eot');
+    src: url('../fonts/fa/iranyekan/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/fa/iranyekan/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/fa/iranyekan/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: iranyekan;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: iranyekan, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+    height: auto;
+    padding-bottom: 80px;
+    background: #4f2f60 url("../images/landhead.jpg") center top no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+}
+.hero h1 {
+    margin: 50px 0 20px;
+    font-family: 'iranyekan';
+    color: white;
+    font-size: 35px;
+}
+.hero h1 span {
+    font: 700 60px/1 "iranyekan", cursive;
+    display: block;
+}
+.hero h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 20px;
+}
+@media only screen and (min-width: 37.5em) {
+    .hero h1 {
+        font-size: 50px;
+    }
+    .hero h1 span {
+        font-size: 76px;
+    }
+    .hero h2 {
+        width: 76%;
+        font-size: 18px;
+    }
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 96%;
+    max-width: 1120px;
+}
+
+.section {
+    padding: 60px 0;
+}
+.section__title {
+    font-size: 24px;
+    color: #3b3b58;
+    text-align: center;
+    font-family: "iranyekan" !important;
+    margin: 14px 0;
+}
+.section__intro {
+    display: block;
+    text-align: center;
+    margin: 0 5% 30px;
+}
+@media only screen and (min-width: 43.75em) {
+    .section__intro {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+.section--cta {
+    color: #454545;
+    background: #f1f1f1;
+}
+
+.box {
+    display: flex;
+    flex: 1 0 100%;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+.box__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box__title {
+    font-family: "iranyekan", sans-serif;
+}
+.box__more {
+    color: #ff4e5c;
+}
+.box__content {
+    color: #454545;
+    text-align: center;
+    padding: 20px;
+}
+.box__content > i {
+    color: #3b3b58;
+}
+.box__content:hover .box__more {
+    color: #ff3545;
+}
+.box__content:hover .box__more i {
+    padding-left: 4px;
+    transition: all 0.2s ease-in-out;
+}
+@media only screen and (min-width: 43.75em) {
+    .box {
+        flex: 0 0 30%;
+    }
+}
+
+.btn {
+    color: #fff;
+    font-family: "iranyekan", sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 12px 18px;
+    border-radius: 100px;
+    background: #ff4e5c;
+}
+.btn:hover {
+    background: #ff3545;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background: #3b3b58;
+}
+.footer p {
+    opacity: 0.65;
+}
